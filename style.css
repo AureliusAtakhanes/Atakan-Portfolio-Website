@@ -60,6 +60,24 @@ p {
     width: 20%;
 }
 
+.user_avatar:hover {
+    animation-name: spin;
+    animation-duration: 1.5s;
+    animation-iteration-count: unset;
+    animation-timing-function: linear;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
 .user_content {
     padding-left: 9px;
 }
