@@ -150,6 +150,19 @@ p {
     font-size: 1.2rem;
     opacity: 0.7;
     display: inline-block;
+    animation-name: rub;
+    animation-delay: 2.5s;
+    animation-iteration-count: initial;
+    animation-fill-mode: forwards;
+    transition: 3s ease;
+}
+
+@keyframes rub {
+    100% {
+        font-weight: 900;
+        color: rgb(255, 223, 0);
+        text-shadow: -1px 0 black, 0 2px black, 2px 0 black, 0 -1px black;
+    }
 }
 
 .jsIcon {
@@ -158,7 +171,8 @@ p {
     animation-name: icon;
     animation-duration: 2s;
     animation-iteration-count: initial;
-    animation-timing-function: ease-in;
+    animation-timing-function: cubic-bezier(.8, 1.8, .2, -1);
+    ;
 }
 
 @keyframes icon {
