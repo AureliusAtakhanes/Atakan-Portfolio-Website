@@ -261,6 +261,12 @@ p {
     margin-bottom: 1rem;
 }
 
+.work_photo {
+    background-size: cover;
+    width: 365px;
+    height: 245px;
+}
+
 .work:hover {
     box-shadow: 0 0 25px black;
 }
@@ -623,5 +629,16 @@ p {
 
     .footer_nav {
         display: none;
+    }
+}
+
+@media (max-width: 780px) {
+    .birthday .promotion__timer .timer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .birthday .promotion__timer .timer__block {
+        margin-top: 9px;
     }
 }
