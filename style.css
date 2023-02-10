@@ -3,7 +3,6 @@
     --gray: #6a696b;
     --gray-light: #dedede;
     --white: #ffffff;
-
 }
 
 body {
@@ -96,8 +95,6 @@ p {
     opacity: 0.7;
 }
 
-
-
 .nav {
     display: flex;
     flex-wrap: wrap;
@@ -108,14 +105,11 @@ p {
 .nav_link {
     margin-left: 2rem;
     position: relative;
-
     font-size: 0.9rem;
     color: var(--black);
     font-weight: bold;
     text-transform: uppercase;
     text-decoration: none;
-
-
 }
 
 .nav_link:hover {
@@ -128,7 +122,6 @@ p {
     padding-top: 6.6rem;
     padding-bottom: 8rem;
     position: relative;
-
     border-bottom: 1px solid black
 }
 
@@ -244,8 +237,15 @@ p {
     font-weight: bold;
 }
 
+.line-1 {
+    height: 1px;
+    width: 1180px;
+    margin: 25px auto;
+    background: black;
+}
+
 .works {
-    margin-bottom: 7rem;
+    margin-bottom: 5rem;
 }
 
 .portfolio {
@@ -325,59 +325,10 @@ p {
 .about_text {
     margin-top: 2.5rem;
     margin-bottom: 3.5rem;
-
-    font-size: 0.75rem;
-    font-weight: 300;
+    font-size: 0.85rem;
+    font-weight: 400;
     color: var(--gray);
 }
-
-.divide-line {
-    border-bottom: 1px solid black;
-    opacity: 0.4;
-    width: 50%;
-    margin: 0 auto;
-    margin-bottom: 20px;
-}
-
-.birthday {
-    margin-bottom: 60px;
-}
-
-.promotion__timer {
-    width: 50%;
-    margin: 0 auto;
-
-}
-
-.promotion__timer .title {
-    text-align: center;
-}
-
-.promotion__timer .timer {
-    margin-top: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.promotion__timer .timer__block {
-    width: 102px;
-    height: 120px;
-    background: #fff;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, .25);
-    font-size: 16px;
-    font-weight: 300;
-    text-align: center;
-}
-
-.promotion__timer .timer__block span {
-    display: block;
-    margin-top: 20px;
-    margin-bottom: 5px;
-    font-size: 56px;
-    font-weight: 700;
-}
-
 
 .footer {
     padding: 1rem 0;
@@ -532,27 +483,6 @@ p {
         margin-bottom: 3rem;
         padding: 0 1rem;
     }
-
-    .course_photo {
-        width: 100%;
-    }
-
-    .course_name {
-        font-size: 2rem;
-    }
-
-    .course_cat {
-        font-size: 1rem;
-    }
-
-    .course_text {
-        font-size: 1rem;
-        margin-bottom: -1rem;
-    }
-
-    .course_link {
-        font-size: 1.1rem;
-    }
 }
 
 @media (max-width: 767px) {
@@ -611,34 +541,7 @@ p {
         padding: 0 1rem;
     }
 
-    .courses {
-        margin-bottom: 2rem;
-    }
-
-    .course_name {
-        font-size: 1rem;
-    }
-
-    .course_cat {
-        font-size: 0.8rem;
-    }
-
-    .footer_copyright {
-        font-size: 0.8rem;
-    }
-
     .footer_nav {
         display: none;
-    }
-}
-
-@media (max-width: 780px) {
-    .birthday .promotion__timer .timer {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .birthday .promotion__timer .timer__block {
-        margin-top: 9px;
     }
 }
