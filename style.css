@@ -285,10 +285,20 @@ p {
 .work_title {
     display: flex;
     justify-content: space-between;
-    font-size: 1rem;
+    font-size: 13px;
     color: var(--black);
     font-weight: bold;
     text-transform: uppercase;
+}
+
+.work_title a {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+.work_title a:hover {
+    color: rebeccapurple;
 }
 
 .about_inner {
@@ -299,13 +309,13 @@ p {
 
 .about_photo {
     max-width: 45%;
-    padding-left: 2.5rem;
+    padding-left: 2rem;
 }
 
 .about_content {
     width: 50%;
     margin-top: 5rem;
-    padding-left: 7.5rem;
+    padding-left: 7rem;
 }
 
 .about_title {
