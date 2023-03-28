@@ -263,8 +263,8 @@ p {
 
 .work_photo {
     background-size: cover;
-    width: 365px;
-    height: 245px;
+    width: 345px;
+    height: 225px;
 }
 
 .work:hover {
@@ -277,6 +277,13 @@ p {
 
 .work_cat {
     font-size: 0.75rem;
+    color: var(--black);
+    text-transform: uppercase;
+    margin-bottom: 0.4rem;
+}
+
+.work_stack {
+    font-size: 0.68rem;
     color: var(--black);
     text-transform: uppercase;
     margin-bottom: 0.4rem;
@@ -465,6 +472,7 @@ p {
         font-size: 1.2rem;
     }
 
+
     .work_title {
         font-size: 1.5rem;
     }
@@ -526,6 +534,10 @@ p {
     }
 
     .work_cat {
+        font-size: 0.7rem;
+    }
+
+    .work_stack {
         font-size: 0.7rem;
     }
 
